@@ -1,0 +1,6 @@
+data/io.github.aerphanas.desktop.in
+data/io.github.aerphanas.appdata.xml.in
+data/io.github.aerphanas.gschema.xml
+src/main.c
+src/simple-text-viewer-window.c
+src/simple-text-viewer-window.ui

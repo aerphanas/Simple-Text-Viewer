@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="simple-text-viewer">
+	<schema id="io.github.aerphanas" path="/io/github/aerphanas/">
+	</schema>
+</schemalist>

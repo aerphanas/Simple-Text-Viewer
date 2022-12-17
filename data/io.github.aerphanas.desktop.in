@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=simple-text-viewer
+Exec=simple-text-viewer
+Icon=io.github.aerphanas
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
