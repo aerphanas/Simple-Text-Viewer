@@ -34,6 +34,7 @@ struct _SimpleTextViewerWindow
   /* Template widgets */
   GtkHeaderBar        *header_bar;
   GtkLabel            *label;
+  GtkTextView         *main_text_view;
 };
 
 G_DEFINE_FINAL_TYPE (SimpleTextViewerWindow, simple_text_viewer_window, ADW_TYPE_APPLICATION_WINDOW)
@@ -46,6 +47,7 @@ simple_text_viewer_window_class_init (SimpleTextViewerWindowClass *klass)
   gtk_widget_class_set_template_from_resource (widget_class, "/io/github/aerphanas/simple-text-viewer-window.ui");
   gtk_widget_class_bind_template_child (widget_class, SimpleTextViewerWindow, header_bar);
   gtk_widget_class_bind_template_child (widget_class, SimpleTextViewerWindow, label);
+  gtk_widget_class_bind_template_child (widget_class, SimpleTextViewerWindow, main_text_view);
 }
 
 static void

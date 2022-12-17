@@ -3,8 +3,12 @@
   <requires lib="gtk" version="4.0"/>
   <requires lib="Adw" version="1.0"/>
   <template class="SimpleTextViewerWindow" parent="AdwApplicationWindow">
-    <property name="default-width">600</property>
-    <property name="default-height">300</property>
+    <property name="default-width">500</property>
+    <property name="default-height">600</property>
+    <property name="title">Simple Text Viewer</property>
+    <style>
+      <class name="devel" />
+    </style>
     <child>
       <object class="GtkBox">
         <property name="orientation">vertical</property>
@@ -19,12 +23,18 @@
           </object>
         </child>
         <child>
-          <object class="GtkLabel" id="label">
-            <property name="label">Hello, World!</property>
+          <object class="GtkScrolledWindow">
+            <property name="hexpand">true</property>
             <property name="vexpand">true</property>
-            <style>
-              <class name="title-1"/>
-            </style>
+            <property name="margin-top">6</property>
+            <property name="margin-bottom">6</property>
+            <property name="margin-start">6</property>
+            <property name="margin-end">6</property>
+            <property name="child">
+              <object class="GtkTextView" id="main_text_view">
+                <property name="monospace">true</property>
+              </object>
+            </property>
           </object>
         </child>
       </object>
