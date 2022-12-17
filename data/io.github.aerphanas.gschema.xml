@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="simple-text-viewer">
 	<schema id="io.github.aerphanas" path="/io/github/aerphanas/">
+    <key name="window-width" type="i">
+      <default>500</default>
+    </key>
+    <key name="window-height" type="i">
+      <default>600</default>
+    </key>
+    <key name="window-maximized" type="b">
+      <default>false</default>
+    </key>
 	</schema>
 </schemalist>
