@@ -14,3 +14,7 @@ simple text viewer from gnome documentation
 
 ![Showing The Cursor Position](https://github.com/aerphanas/Simple-Text-Viewer/blob/main/media/Showing%20The%20Cursor%20Position.png?raw=true "Showing The Cursor Position")
 
+## Section 4: Saving The Content To A File
+
+![Saving The Content To A File](https://github.com/aerphanas/Simple-Text-Viewer/blob/main/media/Saving%20The%20Content%20To%20A%20File.png?raw=true "Saving The Content To A File")
+
