@@ -57,6 +57,10 @@
   </template>
   <menu id="primary_menu">
     <section>
+            <item>
+        <attribute name="label" translatable="yes">_Save as...</attribute>
+        <attribute name="action">win.save-as</attribute>
+      </item>
       <item>
         <attribute name="label" translatable="yes">_Preferences</attribute>
         <attribute name="action">app.preferences</attribute>

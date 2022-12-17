@@ -27,6 +27,12 @@
                 <property name="action-name">win.open</property>
               </object>
             </child>
+            <child>
+              <object class="GtkShortcutsShortcut">
+                <property name="title" translatable="yes" context="shortcut window">Save As</property>
+                <property name="action-name">win.save-as</property>
+              </object>
+            </child>
           </object>
         </child>
       </object>
